@@ -1,0 +1,15 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    background-color: green;
+    font-size: 12px;
+    text-align: center;
+}
+box{
+    display: flex;
+justify-content: space-between;
+}
